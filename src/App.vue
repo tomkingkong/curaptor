@@ -1,7 +1,6 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-    {{ info }}
+    <HelloWorld v-bind:cards="info"/>
   </div>
 </template>
 
@@ -13,7 +12,7 @@ export default {
   name: 'app',
   data () {
     return {
-      info: null
+      info: []
     }
   },
   components: {
@@ -37,8 +36,7 @@ export default {
           }
         }
         axios.get(nextPath, options).then(res => {
-          console.log(res)
-          this.info = res
+          this.info = [...this.info, res.data]
         })
       })
     })
