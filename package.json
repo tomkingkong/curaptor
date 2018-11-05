@@ -10,8 +10,10 @@
     "start": "node server.js"
   },
   "dependencies": {
+    "express": "^4.16.3",
     "axios": "^0.18.0",
-    "vue": "^2.5.17"
+    "vue": "^2.5.17",
+    "serve-static": "^1.13.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.1.1",
