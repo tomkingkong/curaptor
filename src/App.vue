@@ -29,7 +29,6 @@
 <script>
 
 import GalleryData from './services/api/GalleryData.js'
-import Search from './components/Search.vue'
 import Gallery from './components/Gallery.vue'
 
 export default {
