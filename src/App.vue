@@ -1,14 +1,26 @@
 <template>
   <div id="app">
     <section v-if="errored">
-      <p>We're sorry, we're not able to retrieve this information at the moment, please try back later</p>
+      <p class="error-text">We're sorry, we're not able to retrieve this information at the moment, please try back later</p>
     </section>
-
     <section v-else>
-      <div v-if="loading">Loading...</div>
+       <div>
+        <h1 class="header">Curaptor</h1>
+        <input 
+          class="search" 
+          placeholder="Search art"
+          type="search" 
+          v-model="search_term"
+          v-on:keyup="searchGalleries()">
+      </div>
+
+      <div v-if="loading">
+        Loading...
+        <img src="./assets/pencil_draws_itself.gif" width="800">
+      </div>
 
       <div v-else>
-        <Gallery v-bind:cards="info"/>
+        <Gallery v-bind:cards="art"/>
       </div>
     </section>
 
@@ -16,62 +28,70 @@
 </template>
 
 <script>
+
+import GalleryData from './services/api/GalleryData.js'
+import Search from './components/Search.vue'
 import Gallery from './components/Gallery.vue'
-import axios from 'axios';
 
 export default {
   name: 'app',
   data () {
     return {
-      info: [],
+      art: [],
       loading: true,
-      errored: false
+      errored: false,
+      search_term: '',
+      searchGalleries () {
+        GalleryData.getArt(this.search_term)
+          .then(art => {
+            this.art = art.filter(a => a !== undefined)
+          })
+          .catch(error => {
+            console.log(error)
+            this.errored = true
+          })
+          .finally(() => this.loading = false)
+      }
     }
   },
   components: {
+    Search,
     Gallery
   },
   mounted () {
-    let path = "https://api.harvardartmuseums.org/object/";
-    axios.get(path, {params: {
-        apikey: "f8411350-e114-11e8-9234-6f5a1db33697",
-        title: "dog",
-        hasimage: 1,
-        color: 'any',
-        fields: "objectid,title,dated",
-    }})
-    .then(res => { 
-      res.data.records.forEach(r => {
-        let nextPath = path+r.objectid;
-        axios.get(nextPath, {params: {
-            apikey: "f8411350-e114-11e8-9234-6f5a1db33697",
-          }
-        })
-          .then(res => {
-            if(res.data.primaryimageurl) {
-              this.info = [...this.info, res.data]
-            }
-          })
-        })
-      })
-      .catch(error => {
-        console.log(error)
-        this.errored = true
-      })
-      .finally(() => this.loading = false)
+    this.searchGalleries()
   }
 }
+
 </script>
 
 <style>
- body {
+  body {
     background: rgb(32, 39, 53);
   }
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #5a7794;
-}
+  .header {
+    display: inline-block;
+    color: #8cb7e2;
+    text-align: left;
+    font-size: 200%;
+    width: fit-content;
+    margin: 0.5rem;
+  }
+  .search {
+    align-self: center;
+    border-radius: 0.2rem;
+    font-size: 100%;
+    padding: 0.2rem;
+    width: 10rem;
+    height: 1.9rem;
+    margin: 0.5rem;
+  }
+  #app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .error-text {
+    color: white;
+  }
 </style>
