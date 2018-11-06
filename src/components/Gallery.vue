@@ -1,6 +1,5 @@
 <template>
   <div class="backdrop">
-    <!-- <input class="search" type="search" v-model="input_val" placeholder="Search paintings"> -->
     <div class="canvas">
       <ul class="cards">
         <li v-for="card in cards" :key="card.id">
@@ -14,11 +13,6 @@
 <script>
 export default {
   name: 'Gallery',
-  data () {
-    return {
-      input_val: ''
-    }
-  },
   props: {
     cards: Array
   }

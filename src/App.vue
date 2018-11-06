@@ -15,7 +15,6 @@
       </div>
 
       <div v-if="loading">
-        Loading...
         <img src="./assets/pencil_draws_itself.gif" width="800">
       </div>
 
