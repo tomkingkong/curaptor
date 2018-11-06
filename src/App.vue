@@ -4,7 +4,7 @@
       <p class="error-text">We're sorry, we're not able to retrieve this information at the moment, please try back later</p>
     </section>
     <section v-else>
-       <div>
+      <div>
         <h1 class="header">Curaptor</h1>
         <input 
           class="search" 
@@ -15,7 +15,6 @@
       </div>
 
       <div v-if="loading">
-        Loading...
         <img src="./assets/pencil_draws_itself.gif" width="800">
       </div>
 
