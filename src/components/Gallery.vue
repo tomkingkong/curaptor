@@ -1,22 +1,13 @@
 <template>
   <div class="backdrop">
-    <h1>{{ msg }}</h1>
+    <!-- <input class="search" type="search" v-model="input_val" placeholder="Search paintings"> -->
     <div class="canvas">
       <ul class="cards">
-        <li v-for="(card, index) in cards" :key="index">
+        <li v-for="card in cards" :key="card.id">
           <img :src="card.primaryimageurl" width="400" class="painting"/>
         </li>
       </ul>
     </div>
-    <!-- <input type="text" v-model="input_val">
-    <div>
-      Input Value: <span v-text="input_val"></span>
-    </div>
-    <div>
-      <button class="btn btn-primary" v-on:click="counter++">
-        You've clicked this button {{counter}} times!
-      </button>
-    </div> -->
   </div>
 </template>
 
@@ -25,9 +16,7 @@ export default {
   name: 'Gallery',
   data () {
     return {
-      msg: 'CurAptor',
-      input_val: '',
-      counter: 0
+      input_val: ''
     }
   },
   props: {
@@ -74,7 +63,7 @@ export default {
     box-shadow: 0.1rem 0.1rem 0.5rem 0.01rem rgb(194, 194, 194);
   }
   li:hover > .painting{
-    max-width: 20rem;
-    width: 20rem;
+    /* max-width: 20rem;
+    width: 20rem; */
   }
 </style>
