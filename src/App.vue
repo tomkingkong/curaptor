@@ -15,7 +15,7 @@
       </div>
 
       <div v-if="loading">
-        <img src="./assets/pencil_draws_itself.gif" width="800">
+        <img src="./assets/pencil_draws_itself.gif" width="600">
       </div>
 
       <div v-else>
