@@ -39,17 +39,19 @@ export default {
       loading: true,
       errored: false,
       search_term: '',
-      searchGalleries () {
-        GalleryData.getArt(this.search_term)
-          .then(art => {
-            this.art = art.filter(a => a !== undefined)
-          })
-          .catch(error => {
-            console.log(error)
-            this.errored = true
-          })
-          .finally(() => this.loading = false)
-      }
+    }
+  },
+  methods: {
+    searchGalleries () {
+      GalleryData.getArt(this.search_term)
+        .then(art => {
+          this.art = art.filter(a => a !== undefined)
+        })
+        .catch(error => {
+          console.log(error)
+          this.errored = true
+        })
+        .finally(() => this.loading = false)
     }
   },
   components: {
