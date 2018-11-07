@@ -45,7 +45,6 @@ export default {
     searchGalleries () {
       GalleryData.getArt(this.search_term)
         .then(art => {
-          console.log(art)
           this.art = art.filter(a => a !== undefined)
         })
         .catch(error => {
