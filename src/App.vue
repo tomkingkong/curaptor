@@ -4,11 +4,11 @@
       <p class="error-text">We're sorry, we're not able to retrieve this information at the moment, please try back later</p>
     </section>
     <section v-else>
-       <div>
-        <h1 class="header">Curaptor</h1>
+      <div class="header">
+        <h1 class="title">CurAPPtor</h1>
         <input 
           class="search" 
-          placeholder="Search art"
+          placeholder="Explore art.."
           type="search" 
           v-model="search_term"
           v-on:keyup="searchGalleries()">
@@ -65,25 +65,41 @@ export default {
 </script>
 
 <style>
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  html {
+    box-sizing: border-box;
+  }
   body {
-    background: rgb(32, 39, 53);
+    margin: 0;
+    padding: 0;
+    background: rgb(51, 53, 58);
   }
   .header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1rem 0.5rem;
+  }
+  .title {
     display: inline-block;
     color: #8cb7e2;
     text-align: left;
     font-size: 200%;
     width: fit-content;
-    margin: 0.5rem;
+    margin: 0.5rem 1.5rem;
   }
   .search {
     align-self: center;
     border-radius: 0.2rem;
     font-size: 100%;
-    padding: 0.2rem;
+    padding: 0.25rem;
     width: 10rem;
     height: 1.9rem;
-    margin: 0.5rem;
+    margin: 0.2rem 0.5rem;
   }
   #app {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -92,5 +108,10 @@ export default {
   }
   .error-text {
     color: white;
+  }
+  @media only screen and (max-width: 400px) {
+    .title {
+      margin: 0.4rem;
+    }
   }
 </style>
