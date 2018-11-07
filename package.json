@@ -7,24 +7,33 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "postinstall": "if test \"$NODE_ENV\" = \"production\" ; then npm run build ; fi ",
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "jest"
   },
   "dependencies": {
-    "express": "^4.16.3",
     "axios": "^0.18.0",
+    "babel-jest": "^23.6.0",
+    "express": "^4.16.3",
+    "jest": "^23.6.0",
+    "jest-vue-preprocessor": "^1.4.0",
+    "serve-static": "^1.13.2",
     "vue": "^2.5.17",
-    "serve-static": "^1.13.2"
+    "vue-test-utils": "^1.0.0-beta.11",
+    "vuex": "^3.0.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.1.5",
     "@vue/cli-plugin-babel": "^3.1.1",
     "@vue/cli-plugin-eslint": "^3.1.1",
     "@vue/cli-service": "^3.1.1",
     "babel-eslint": "^10.0.1",
+    "babel-preset-env": "^1.7.0",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0-0",
     "express": "^4.16.4",
     "serve-static": "^1.13.2",
-    "vue-template-compiler": "^2.5.17"
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.25.1"
   },
   "eslintConfig": {
     "root": true,
@@ -49,5 +58,19 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "vue"
+    ],
+    "transform": {
+      ".*\\.(vue)$": "<rootDir>/node_modules/jest-vue-preprocessor",
+      "^.+\\.js$": "<rootDir>/node_modules/babel-jest"
+    },
+    "moduleNameMapper": {
+      "^@/(.*)$": "<rootDir>/src/$1"
+    }
+  }
 }
