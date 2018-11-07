@@ -8,16 +8,18 @@ VueWrapper {
     id="app"
   >
     <section>
-      <div>
+      <div
+        class="header"
+      >
         <h1
-          class="header"
+          class="title"
         >
-          Curaptor
+          CurAPPtor
         </h1>
          
         <input
           class="search"
-          placeholder="Search art"
+          placeholder="Explore art.."
           type="search"
         />
       </div>
@@ -569,16 +571,18 @@ VueWrapper {
       id="app"
     >
       <section>
-        <div>
+        <div
+          class="header"
+        >
           <h1
-            class="header"
+            class="title"
           >
-            Curaptor
+            CurAPPtor
           </h1>
            
           <input
             class="search"
-            placeholder="Search art"
+            placeholder="Explore art.."
             type="search"
           />
         </div>
@@ -1208,16 +1212,18 @@ VueWrapper {
         id="app"
       >
         <section>
-          <div>
+          <div
+            class="header"
+          >
             <h1
-              class="header"
+              class="title"
             >
-              Curaptor
+              CurAPPtor
             </h1>
              
             <input
               class="search"
-              placeholder="Search art"
+              placeholder="Explore art.."
               type="search"
             />
           </div>
@@ -1339,7 +1345,7 @@ VueWrapper {
                         "componentOptions": undefined,
                         "context": undefined,
                         "data": undefined,
-                        "elm": Curaptor,
+                        "elm": CurAPPtor,
                         "fnContext": undefined,
                         "fnOptions": undefined,
                         "fnScopeId": undefined,
@@ -1354,19 +1360,19 @@ VueWrapper {
                         "parent": undefined,
                         "raw": false,
                         "tag": undefined,
-                        "text": "Curaptor",
+                        "text": "CurAPPtor",
                       },
                     ],
                     "componentInstance": undefined,
                     "componentOptions": undefined,
                     "context": [Circular],
                     "data": Object {
-                      "staticClass": "header",
+                      "staticClass": "title",
                     },
                     "elm": <h1
-                      class="header"
+                      class="title"
                     >
-                      Curaptor
+                      CurAPPtor
                     </h1>,
                     "fnContext": undefined,
                     "fnOptions": undefined,
@@ -1418,7 +1424,7 @@ VueWrapper {
                     "context": [Circular],
                     "data": Object {
                       "attrs": Object {
-                        "placeholder": "Search art",
+                        "placeholder": "Explore art..",
                         "type": "search",
                       },
                       "directives": Array [
@@ -1449,7 +1455,7 @@ VueWrapper {
                     },
                     "elm": <input
                       class="search"
-                      placeholder="Search art"
+                      placeholder="Explore art.."
                       type="search"
                     />,
                     "fnContext": undefined,
@@ -1472,17 +1478,21 @@ VueWrapper {
                 "componentInstance": undefined,
                 "componentOptions": undefined,
                 "context": [Circular],
-                "data": undefined,
-                "elm": <div>
+                "data": Object {
+                  "staticClass": "header",
+                },
+                "elm": <div
+                  class="header"
+                >
                   <h1
-                    class="header"
+                    class="title"
                   >
-                    Curaptor
+                    CurAPPtor
                   </h1>
                    
                   <input
                     class="search"
-                    placeholder="Search art"
+                    placeholder="Explore art.."
                     type="search"
                   />
                 </div>,
@@ -1856,16 +1866,18 @@ VueWrapper {
             "context": [Circular],
             "data": undefined,
             "elm": <section>
-              <div>
+              <div
+                class="header"
+              >
                 <h1
-                  class="header"
+                  class="title"
                 >
-                  Curaptor
+                  CurAPPtor
                 </h1>
                  
                 <input
                   class="search"
-                  placeholder="Search art"
+                  placeholder="Explore art.."
                   type="search"
                 />
               </div>
@@ -1903,16 +1915,18 @@ VueWrapper {
           id="app"
         >
           <section>
-            <div>
+            <div
+              class="header"
+            >
               <h1
-                class="header"
+                class="title"
               >
-                Curaptor
+                CurAPPtor
               </h1>
                
               <input
                 class="search"
-                placeholder="Search art"
+                placeholder="Explore art.."
                 type="search"
               />
             </div>
@@ -2106,7 +2120,7 @@ VueWrapper {
                       "componentOptions": undefined,
                       "context": undefined,
                       "data": undefined,
-                      "elm": Curaptor,
+                      "elm": CurAPPtor,
                       "fnContext": undefined,
                       "fnOptions": undefined,
                       "fnScopeId": undefined,
@@ -2121,19 +2135,19 @@ VueWrapper {
                       "parent": undefined,
                       "raw": false,
                       "tag": undefined,
-                      "text": "Curaptor",
+                      "text": "CurAPPtor",
                     },
                   ],
                   "componentInstance": undefined,
                   "componentOptions": undefined,
                   "context": [Circular],
                   "data": Object {
-                    "staticClass": "header",
+                    "staticClass": "title",
                   },
                   "elm": <h1
-                    class="header"
+                    class="title"
                   >
-                    Curaptor
+                    CurAPPtor
                   </h1>,
                   "fnContext": undefined,
                   "fnOptions": undefined,
@@ -2185,7 +2199,7 @@ VueWrapper {
                   "context": [Circular],
                   "data": Object {
                     "attrs": Object {
-                      "placeholder": "Search art",
+                      "placeholder": "Explore art..",
                       "type": "search",
                     },
                     "directives": Array [
@@ -2216,7 +2230,7 @@ VueWrapper {
                   },
                   "elm": <input
                     class="search"
-                    placeholder="Search art"
+                    placeholder="Explore art.."
                     type="search"
                   />,
                   "fnContext": undefined,
@@ -2239,17 +2253,21 @@ VueWrapper {
               "componentInstance": undefined,
               "componentOptions": undefined,
               "context": [Circular],
-              "data": undefined,
-              "elm": <div>
+              "data": Object {
+                "staticClass": "header",
+              },
+              "elm": <div
+                class="header"
+              >
                 <h1
-                  class="header"
+                  class="title"
                 >
-                  Curaptor
+                  CurAPPtor
                 </h1>
                  
                 <input
                   class="search"
-                  placeholder="Search art"
+                  placeholder="Explore art.."
                   type="search"
                 />
               </div>,
@@ -2623,16 +2641,18 @@ VueWrapper {
           "context": [Circular],
           "data": undefined,
           "elm": <section>
-            <div>
+            <div
+              class="header"
+            >
               <h1
-                class="header"
+                class="title"
               >
-                Curaptor
+                CurAPPtor
               </h1>
                
               <input
                 class="search"
-                placeholder="Search art"
+                placeholder="Explore art.."
                 type="search"
               />
             </div>
@@ -2670,16 +2690,18 @@ VueWrapper {
         id="app"
       >
         <section>
-          <div>
+          <div
+            class="header"
+          >
             <h1
-              class="header"
+              class="title"
             >
-              Curaptor
+              CurAPPtor
             </h1>
              
             <input
               class="search"
-              placeholder="Search art"
+              placeholder="Explore art.."
               type="search"
             />
           </div>
@@ -2870,7 +2892,7 @@ VueWrapper {
                     "componentOptions": undefined,
                     "context": undefined,
                     "data": undefined,
-                    "elm": Curaptor,
+                    "elm": CurAPPtor,
                     "fnContext": undefined,
                     "fnOptions": undefined,
                     "fnScopeId": undefined,
@@ -2885,7 +2907,7 @@ VueWrapper {
                     "parent": undefined,
                     "raw": false,
                     "tag": undefined,
-                    "text": "Curaptor",
+                    "text": "CurAPPtor",
                   },
                 ],
                 "componentInstance": undefined,
@@ -3426,16 +3448,18 @@ VueWrapper {
                     id="app"
                   >
                     <section>
-                      <div>
+                      <div
+                        class="header"
+                      >
                         <h1
-                          class="header"
+                          class="title"
                         >
-                          Curaptor
+                          CurAPPtor
                         </h1>
                          
                         <input
                           class="search"
-                          placeholder="Search art"
+                          placeholder="Explore art.."
                           type="search"
                         />
                       </div>
@@ -4065,16 +4089,18 @@ VueWrapper {
                       id="app"
                     >
                       <section>
-                        <div>
+                        <div
+                          class="header"
+                        >
                           <h1
-                            class="header"
+                            class="title"
                           >
-                            Curaptor
+                            CurAPPtor
                           </h1>
                            
                           <input
                             class="search"
-                            placeholder="Search art"
+                            placeholder="Explore art.."
                             type="search"
                           />
                         </div>
@@ -4460,12 +4486,12 @@ VueWrapper {
                   "search_term": "",
                 },
                 "data": Object {
-                  "staticClass": "header",
+                  "staticClass": "title",
                 },
                 "elm": <h1
-                  class="header"
+                  class="title"
                 >
-                  Curaptor
+                  CurAPPtor
                 </h1>,
                 "fnContext": undefined,
                 "fnOptions": undefined,
@@ -5050,16 +5076,18 @@ VueWrapper {
                     id="app"
                   >
                     <section>
-                      <div>
+                      <div
+                        class="header"
+                      >
                         <h1
-                          class="header"
+                          class="title"
                         >
-                          Curaptor
+                          CurAPPtor
                         </h1>
                          
                         <input
                           class="search"
-                          placeholder="Search art"
+                          placeholder="Explore art.."
                           type="search"
                         />
                       </div>
@@ -5689,16 +5717,18 @@ VueWrapper {
                       id="app"
                     >
                       <section>
-                        <div>
+                        <div
+                          class="header"
+                        >
                           <h1
-                            class="header"
+                            class="title"
                           >
-                            Curaptor
+                            CurAPPtor
                           </h1>
                            
                           <input
                             class="search"
-                            placeholder="Search art"
+                            placeholder="Explore art.."
                             type="search"
                           />
                         </div>
@@ -6085,7 +6115,7 @@ VueWrapper {
                 },
                 "data": Object {
                   "attrs": Object {
-                    "placeholder": "Search art",
+                    "placeholder": "Explore art..",
                     "type": "search",
                   },
                   "directives": Array [
@@ -6116,7 +6146,7 @@ VueWrapper {
                 },
                 "elm": <input
                   class="search"
-                  placeholder="Search art"
+                  placeholder="Explore art.."
                   type="search"
                 />,
                 "fnContext": undefined,
@@ -6674,16 +6704,18 @@ VueWrapper {
                 id="app"
               >
                 <section>
-                  <div>
+                  <div
+                    class="header"
+                  >
                     <h1
-                      class="header"
+                      class="title"
                     >
-                      Curaptor
+                      CurAPPtor
                     </h1>
                      
                     <input
                       class="search"
-                      placeholder="Search art"
+                      placeholder="Explore art.."
                       type="search"
                     />
                   </div>
@@ -7313,16 +7345,18 @@ VueWrapper {
                   id="app"
                 >
                   <section>
-                    <div>
+                    <div
+                      class="header"
+                    >
                       <h1
-                        class="header"
+                        class="title"
                       >
-                        Curaptor
+                        CurAPPtor
                       </h1>
                        
                       <input
                         class="search"
-                        placeholder="Search art"
+                        placeholder="Explore art.."
                         type="search"
                       />
                     </div>
@@ -7707,17 +7741,21 @@ VueWrapper {
               "searchGalleries": [Function],
               "search_term": "",
             },
-            "data": undefined,
-            "elm": <div>
+            "data": Object {
+              "staticClass": "header",
+            },
+            "elm": <div
+              class="header"
+            >
               <h1
-                class="header"
+                class="title"
               >
-                Curaptor
+                CurAPPtor
               </h1>
                
               <input
                 class="search"
-                placeholder="Search art"
+                placeholder="Explore art.."
                 type="search"
               />
             </div>,
@@ -7799,16 +7837,18 @@ VueWrapper {
                         id="app"
                       >
                         <section>
-                          <div>
+                          <div
+                            class="header"
+                          >
                             <h1
-                              class="header"
+                              class="title"
                             >
-                              Curaptor
+                              CurAPPtor
                             </h1>
                              
                             <input
                               class="search"
-                              placeholder="Search art"
+                              placeholder="Explore art.."
                               type="search"
                             />
                           </div>
@@ -7914,16 +7954,18 @@ VueWrapper {
                           id="app"
                         >
                           <section>
-                            <div>
+                            <div
+                              class="header"
+                            >
                               <h1
-                                class="header"
+                                class="title"
                               >
-                                Curaptor
+                                CurAPPtor
                               </h1>
                                
                               <input
                                 class="search"
-                                placeholder="Search art"
+                                placeholder="Explore art.."
                                 type="search"
                               />
                             </div>
@@ -8329,16 +8371,18 @@ VueWrapper {
                       id="app"
                     >
                       <section>
-                        <div>
+                        <div
+                          class="header"
+                        >
                           <h1
-                            class="header"
+                            class="title"
                           >
-                            Curaptor
+                            CurAPPtor
                           </h1>
                            
                           <input
                             class="search"
-                            placeholder="Search art"
+                            placeholder="Explore art.."
                             type="search"
                           />
                         </div>
@@ -8444,16 +8488,18 @@ VueWrapper {
                         id="app"
                       >
                         <section>
-                          <div>
+                          <div
+                            class="header"
+                          >
                             <h1
-                              class="header"
+                              class="title"
                             >
-                              Curaptor
+                              CurAPPtor
                             </h1>
                              
                             <input
                               class="search"
-                              placeholder="Search art"
+                              placeholder="Explore art.."
                               type="search"
                             />
                           </div>
@@ -8851,16 +8897,18 @@ VueWrapper {
                       id="app"
                     >
                       <section>
-                        <div>
+                        <div
+                          class="header"
+                        >
                           <h1
-                            class="header"
+                            class="title"
                           >
-                            Curaptor
+                            CurAPPtor
                           </h1>
                            
                           <input
                             class="search"
-                            placeholder="Search art"
+                            placeholder="Explore art.."
                             type="search"
                           />
                         </div>
@@ -8966,16 +9014,18 @@ VueWrapper {
                         id="app"
                       >
                         <section>
-                          <div>
+                          <div
+                            class="header"
+                          >
                             <h1
-                              class="header"
+                              class="title"
                             >
-                              Curaptor
+                              CurAPPtor
                             </h1>
                              
                             <input
                               class="search"
-                              placeholder="Search art"
+                              placeholder="Explore art.."
                               type="search"
                             />
                           </div>
@@ -9412,16 +9462,18 @@ VueWrapper {
                           id="app"
                         >
                           <section>
-                            <div>
+                            <div
+                              class="header"
+                            >
                               <h1
-                                class="header"
+                                class="title"
                               >
-                                Curaptor
+                                CurAPPtor
                               </h1>
                                
                               <input
                                 class="search"
-                                placeholder="Search art"
+                                placeholder="Explore art.."
                                 type="search"
                               />
                             </div>
@@ -9527,16 +9579,18 @@ VueWrapper {
                             id="app"
                           >
                             <section>
-                              <div>
+                              <div
+                                class="header"
+                              >
                                 <h1
-                                  class="header"
+                                  class="title"
                                 >
-                                  Curaptor
+                                  CurAPPtor
                                 </h1>
                                  
                                 <input
                                   class="search"
-                                  placeholder="Search art"
+                                  placeholder="Explore art.."
                                   type="search"
                                 />
                               </div>
@@ -9942,16 +9996,18 @@ VueWrapper {
                         id="app"
                       >
                         <section>
-                          <div>
+                          <div
+                            class="header"
+                          >
                             <h1
-                              class="header"
+                              class="title"
                             >
-                              Curaptor
+                              CurAPPtor
                             </h1>
                              
                             <input
                               class="search"
-                              placeholder="Search art"
+                              placeholder="Explore art.."
                               type="search"
                             />
                           </div>
@@ -10057,16 +10113,18 @@ VueWrapper {
                           id="app"
                         >
                           <section>
-                            <div>
+                            <div
+                              class="header"
+                            >
                               <h1
-                                class="header"
+                                class="title"
                               >
-                                Curaptor
+                                CurAPPtor
                               </h1>
                                
                               <input
                                 class="search"
-                                placeholder="Search art"
+                                placeholder="Explore art.."
                                 type="search"
                               />
                             </div>
@@ -10464,16 +10522,18 @@ VueWrapper {
                         id="app"
                       >
                         <section>
-                          <div>
+                          <div
+                            class="header"
+                          >
                             <h1
-                              class="header"
+                              class="title"
                             >
-                              Curaptor
+                              CurAPPtor
                             </h1>
                              
                             <input
                               class="search"
-                              placeholder="Search art"
+                              placeholder="Explore art.."
                               type="search"
                             />
                           </div>
@@ -10579,16 +10639,18 @@ VueWrapper {
                           id="app"
                         >
                           <section>
-                            <div>
+                            <div
+                              class="header"
+                            >
                               <h1
-                                class="header"
+                                class="title"
                               >
-                                Curaptor
+                                CurAPPtor
                               </h1>
                                
                               <input
                                 class="search"
-                                placeholder="Search art"
+                                placeholder="Explore art.."
                                 type="search"
                               />
                             </div>
@@ -11413,16 +11475,18 @@ VueWrapper {
                     id="app"
                   >
                     <section>
-                      <div>
+                      <div
+                        class="header"
+                      >
                         <h1
-                          class="header"
+                          class="title"
                         >
-                          Curaptor
+                          CurAPPtor
                         </h1>
                          
                         <input
                           class="search"
-                          placeholder="Search art"
+                          placeholder="Explore art.."
                           type="search"
                         />
                       </div>
@@ -11776,16 +11840,18 @@ VueWrapper {
                       id="app"
                     >
                       <section>
-                        <div>
+                        <div
+                          class="header"
+                        >
                           <h1
-                            class="header"
+                            class="title"
                           >
-                            Curaptor
+                            CurAPPtor
                           </h1>
                            
                           <input
                             class="search"
-                            placeholder="Search art"
+                            placeholder="Explore art.."
                             type="search"
                           />
                         </div>
@@ -12736,16 +12802,18 @@ VueWrapper {
                 id="app"
               >
                 <section>
-                  <div>
+                  <div
+                    class="header"
+                  >
                     <h1
-                      class="header"
+                      class="title"
                     >
-                      Curaptor
+                      CurAPPtor
                     </h1>
                      
                     <input
                       class="search"
-                      placeholder="Search art"
+                      placeholder="Explore art.."
                       type="search"
                     />
                   </div>
@@ -13375,16 +13443,18 @@ VueWrapper {
                   id="app"
                 >
                   <section>
-                    <div>
+                    <div
+                      class="header"
+                    >
                       <h1
-                        class="header"
+                        class="title"
                       >
-                        Curaptor
+                        CurAPPtor
                       </h1>
                        
                       <input
                         class="search"
-                        placeholder="Search art"
+                        placeholder="Explore art.."
                         type="search"
                       />
                     </div>
@@ -14328,16 +14398,18 @@ VueWrapper {
             id="app"
           >
             <section>
-              <div>
+              <div
+                class="header"
+              >
                 <h1
-                  class="header"
+                  class="title"
                 >
-                  Curaptor
+                  CurAPPtor
                 </h1>
                  
                 <input
                   class="search"
-                  placeholder="Search art"
+                  placeholder="Explore art.."
                   type="search"
                 />
               </div>
@@ -14967,16 +15039,18 @@ VueWrapper {
               id="app"
             >
               <section>
-                <div>
+                <div
+                  class="header"
+                >
                   <h1
-                    class="header"
+                    class="title"
                   >
-                    Curaptor
+                    CurAPPtor
                   </h1>
                    
                   <input
                     class="search"
-                    placeholder="Search art"
+                    placeholder="Explore art.."
                     type="search"
                   />
                 </div>
@@ -15363,16 +15437,18 @@ VueWrapper {
         },
         "data": undefined,
         "elm": <section>
-          <div>
+          <div
+            class="header"
+          >
             <h1
-              class="header"
+              class="title"
             >
-              Curaptor
+              CurAPPtor
             </h1>
              
             <input
               class="search"
-              placeholder="Search art"
+              placeholder="Explore art.."
               type="search"
             />
           </div>
@@ -15936,16 +16012,18 @@ VueWrapper {
         id="app"
       >
         <section>
-          <div>
+          <div
+            class="header"
+          >
             <h1
-              class="header"
+              class="title"
             >
-              Curaptor
+              CurAPPtor
             </h1>
              
             <input
               class="search"
-              placeholder="Search art"
+              placeholder="Explore art.."
               type="search"
             />
           </div>
@@ -16575,16 +16653,18 @@ VueWrapper {
           id="app"
         >
           <section>
-            <div>
+            <div
+              class="header"
+            >
               <h1
-                class="header"
+                class="title"
               >
-                Curaptor
+                CurAPPtor
               </h1>
                
               <input
                 class="search"
-                placeholder="Search art"
+                placeholder="Explore art.."
                 type="search"
               />
             </div>
@@ -16978,16 +17058,18 @@ VueWrapper {
       id="app"
     >
       <section>
-        <div>
+        <div
+          class="header"
+        >
           <h1
-            class="header"
+            class="title"
           >
-            Curaptor
+            CurAPPtor
           </h1>
            
           <input
             class="search"
-            placeholder="Search art"
+            placeholder="Explore art.."
             type="search"
           />
         </div>
@@ -17024,16 +17106,18 @@ VueWrapper {
     id="app"
   >
     <section>
-      <div>
+      <div
+        class="header"
+      >
         <h1
-          class="header"
+          class="title"
         >
-          Curaptor
+          CurAPPtor
         </h1>
          
         <input
           class="search"
-          placeholder="Search art"
+          placeholder="Explore art.."
           type="search"
         />
       </div>
@@ -17062,16 +17146,18 @@ VueWrapper {
       id="app"
     >
       <section>
-        <div>
+        <div
+          class="header"
+        >
           <h1
-            class="header"
+            class="title"
           >
-            Curaptor
+            CurAPPtor
           </h1>
            
           <input
             class="search"
-            placeholder="Search art"
+            placeholder="Explore art.."
             type="search"
           />
         </div>
@@ -17168,16 +17254,18 @@ VueWrapper {
         id="app"
       >
         <section>
-          <div>
+          <div
+            class="header"
+          >
             <h1
-              class="header"
+              class="title"
             >
-              Curaptor
+              CurAPPtor
             </h1>
              
             <input
               class="search"
-              placeholder="Search art"
+              placeholder="Explore art.."
               type="search"
             />
           </div>
@@ -17292,7 +17380,7 @@ VueWrapper {
                         "componentOptions": undefined,
                         "context": undefined,
                         "data": undefined,
-                        "elm": Curaptor,
+                        "elm": CurAPPtor,
                         "fnContext": undefined,
                         "fnOptions": undefined,
                         "fnScopeId": undefined,
@@ -17307,19 +17395,19 @@ VueWrapper {
                         "parent": undefined,
                         "raw": false,
                         "tag": undefined,
-                        "text": "Curaptor",
+                        "text": "CurAPPtor",
                       },
                     ],
                     "componentInstance": undefined,
                     "componentOptions": undefined,
                     "context": [Circular],
                     "data": Object {
-                      "staticClass": "header",
+                      "staticClass": "title",
                     },
                     "elm": <h1
-                      class="header"
+                      class="title"
                     >
-                      Curaptor
+                      CurAPPtor
                     </h1>,
                     "fnContext": undefined,
                     "fnOptions": undefined,
@@ -17371,7 +17459,7 @@ VueWrapper {
                     "context": [Circular],
                     "data": Object {
                       "attrs": Object {
-                        "placeholder": "Search art",
+                        "placeholder": "Explore art..",
                         "type": "search",
                       },
                       "directives": Array [
@@ -17401,7 +17489,7 @@ VueWrapper {
                     },
                     "elm": <input
                       class="search"
-                      placeholder="Search art"
+                      placeholder="Explore art.."
                       type="search"
                     />,
                     "fnContext": undefined,
@@ -17424,17 +17512,21 @@ VueWrapper {
                 "componentInstance": undefined,
                 "componentOptions": undefined,
                 "context": [Circular],
-                "data": undefined,
-                "elm": <div>
+                "data": Object {
+                  "staticClass": "header",
+                },
+                "elm": <div
+                  class="header"
+                >
                   <h1
-                    class="header"
+                    class="title"
                   >
-                    Curaptor
+                    CurAPPtor
                   </h1>
                    
                   <input
                     class="search"
-                    placeholder="Search art"
+                    placeholder="Explore art.."
                     type="search"
                   />
                 </div>,
@@ -17549,16 +17641,18 @@ VueWrapper {
             "context": [Circular],
             "data": undefined,
             "elm": <section>
-              <div>
+              <div
+                class="header"
+              >
                 <h1
-                  class="header"
+                  class="title"
                 >
-                  Curaptor
+                  CurAPPtor
                 </h1>
                  
                 <input
                   class="search"
-                  placeholder="Search art"
+                  placeholder="Explore art.."
                   type="search"
                 />
               </div>
@@ -17599,16 +17693,18 @@ VueWrapper {
           id="app"
         >
           <section>
-            <div>
+            <div
+              class="header"
+            >
               <h1
-                class="header"
+                class="title"
               >
-                Curaptor
+                CurAPPtor
               </h1>
                
               <input
                 class="search"
-                placeholder="Search art"
+                placeholder="Explore art.."
                 type="search"
               />
             </div>
@@ -17758,7 +17854,7 @@ VueWrapper {
                       "componentOptions": undefined,
                       "context": undefined,
                       "data": undefined,
-                      "elm": Curaptor,
+                      "elm": CurAPPtor,
                       "fnContext": undefined,
                       "fnOptions": undefined,
                       "fnScopeId": undefined,
@@ -17773,19 +17869,19 @@ VueWrapper {
                       "parent": undefined,
                       "raw": false,
                       "tag": undefined,
-                      "text": "Curaptor",
+                      "text": "CurAPPtor",
                     },
                   ],
                   "componentInstance": undefined,
                   "componentOptions": undefined,
                   "context": [Circular],
                   "data": Object {
-                    "staticClass": "header",
+                    "staticClass": "title",
                   },
                   "elm": <h1
-                    class="header"
+                    class="title"
                   >
-                    Curaptor
+                    CurAPPtor
                   </h1>,
                   "fnContext": undefined,
                   "fnOptions": undefined,
@@ -17837,7 +17933,7 @@ VueWrapper {
                   "context": [Circular],
                   "data": Object {
                     "attrs": Object {
-                      "placeholder": "Search art",
+                      "placeholder": "Explore art..",
                       "type": "search",
                     },
                     "directives": Array [
@@ -17867,7 +17963,7 @@ VueWrapper {
                   },
                   "elm": <input
                     class="search"
-                    placeholder="Search art"
+                    placeholder="Explore art.."
                     type="search"
                   />,
                   "fnContext": undefined,
@@ -17890,17 +17986,21 @@ VueWrapper {
               "componentInstance": undefined,
               "componentOptions": undefined,
               "context": [Circular],
-              "data": undefined,
-              "elm": <div>
+              "data": Object {
+                "staticClass": "header",
+              },
+              "elm": <div
+                class="header"
+              >
                 <h1
-                  class="header"
+                  class="title"
                 >
-                  Curaptor
+                  CurAPPtor
                 </h1>
                  
                 <input
                   class="search"
-                  placeholder="Search art"
+                  placeholder="Explore art.."
                   type="search"
                 />
               </div>,
@@ -18015,16 +18115,18 @@ VueWrapper {
           "context": [Circular],
           "data": undefined,
           "elm": <section>
-            <div>
+            <div
+              class="header"
+            >
               <h1
-                class="header"
+                class="title"
               >
-                Curaptor
+                CurAPPtor
               </h1>
                
               <input
                 class="search"
-                placeholder="Search art"
+                placeholder="Explore art.."
                 type="search"
               />
             </div>
@@ -18065,16 +18167,18 @@ VueWrapper {
         id="app"
       >
         <section>
-          <div>
+          <div
+            class="header"
+          >
             <h1
-              class="header"
+              class="title"
             >
-              Curaptor
+              CurAPPtor
             </h1>
              
             <input
               class="search"
-              placeholder="Search art"
+              placeholder="Explore art.."
               type="search"
             />
           </div>
@@ -18221,7 +18325,7 @@ VueWrapper {
                     "componentOptions": undefined,
                     "context": undefined,
                     "data": undefined,
-                    "elm": Curaptor,
+                    "elm": CurAPPtor,
                     "fnContext": undefined,
                     "fnOptions": undefined,
                     "fnScopeId": undefined,
@@ -18236,7 +18340,7 @@ VueWrapper {
                     "parent": undefined,
                     "raw": false,
                     "tag": undefined,
-                    "text": "Curaptor",
+                    "text": "CurAPPtor",
                   },
                 ],
                 "componentInstance": undefined,
@@ -18251,16 +18355,18 @@ VueWrapper {
                     id="app"
                   >
                     <section>
-                      <div>
+                      <div
+                        class="header"
+                      >
                         <h1
-                          class="header"
+                          class="title"
                         >
-                          Curaptor
+                          CurAPPtor
                         </h1>
                          
                         <input
                           class="search"
-                          placeholder="Search art"
+                          placeholder="Explore art.."
                           type="search"
                         />
                       </div>
@@ -18357,16 +18463,18 @@ VueWrapper {
                       id="app"
                     >
                       <section>
-                        <div>
+                        <div
+                          class="header"
+                        >
                           <h1
-                            class="header"
+                            class="title"
                           >
-                            Curaptor
+                            CurAPPtor
                           </h1>
                            
                           <input
                             class="search"
-                            placeholder="Search art"
+                            placeholder="Explore art.."
                             type="search"
                           />
                         </div>
@@ -18651,12 +18759,12 @@ VueWrapper {
                   "search_term": "",
                 },
                 "data": Object {
-                  "staticClass": "header",
+                  "staticClass": "title",
                 },
                 "elm": <h1
-                  class="header"
+                  class="title"
                 >
-                  Curaptor
+                  CurAPPtor
                 </h1>,
                 "fnContext": undefined,
                 "fnOptions": undefined,
@@ -18715,16 +18823,18 @@ VueWrapper {
                     id="app"
                   >
                     <section>
-                      <div>
+                      <div
+                        class="header"
+                      >
                         <h1
-                          class="header"
+                          class="title"
                         >
-                          Curaptor
+                          CurAPPtor
                         </h1>
                          
                         <input
                           class="search"
-                          placeholder="Search art"
+                          placeholder="Explore art.."
                           type="search"
                         />
                       </div>
@@ -18821,16 +18931,18 @@ VueWrapper {
                       id="app"
                     >
                       <section>
-                        <div>
+                        <div
+                          class="header"
+                        >
                           <h1
-                            class="header"
+                            class="title"
                           >
-                            Curaptor
+                            CurAPPtor
                           </h1>
                            
                           <input
                             class="search"
-                            placeholder="Search art"
+                            placeholder="Explore art.."
                             type="search"
                           />
                         </div>
@@ -19116,7 +19228,7 @@ VueWrapper {
                 },
                 "data": Object {
                   "attrs": Object {
-                    "placeholder": "Search art",
+                    "placeholder": "Explore art..",
                     "type": "search",
                   },
                   "directives": Array [
@@ -19146,7 +19258,7 @@ VueWrapper {
                 },
                 "elm": <input
                   class="search"
-                  placeholder="Search art"
+                  placeholder="Explore art.."
                   type="search"
                 />,
                 "fnContext": undefined,
@@ -19178,16 +19290,18 @@ VueWrapper {
                 id="app"
               >
                 <section>
-                  <div>
+                  <div
+                    class="header"
+                  >
                     <h1
-                      class="header"
+                      class="title"
                     >
-                      Curaptor
+                      CurAPPtor
                     </h1>
                      
                     <input
                       class="search"
-                      placeholder="Search art"
+                      placeholder="Explore art.."
                       type="search"
                     />
                   </div>
@@ -19284,16 +19398,18 @@ VueWrapper {
                   id="app"
                 >
                   <section>
-                    <div>
+                    <div
+                      class="header"
+                    >
                       <h1
-                        class="header"
+                        class="title"
                       >
-                        Curaptor
+                        CurAPPtor
                       </h1>
                        
                       <input
                         class="search"
-                        placeholder="Search art"
+                        placeholder="Explore art.."
                         type="search"
                       />
                     </div>
@@ -19577,17 +19693,21 @@ VueWrapper {
               "searchGalleries": [Function],
               "search_term": "",
             },
-            "data": undefined,
-            "elm": <div>
+            "data": Object {
+              "staticClass": "header",
+            },
+            "elm": <div
+              class="header"
+            >
               <h1
-                class="header"
+                class="title"
               >
-                Curaptor
+                CurAPPtor
               </h1>
                
               <input
                 class="search"
-                placeholder="Search art"
+                placeholder="Explore art.."
                 type="search"
               />
             </div>,
@@ -19652,16 +19772,18 @@ VueWrapper {
                     id="app"
                   >
                     <section>
-                      <div>
+                      <div
+                        class="header"
+                      >
                         <h1
-                          class="header"
+                          class="title"
                         >
-                          Curaptor
+                          CurAPPtor
                         </h1>
                          
                         <input
                           class="search"
-                          placeholder="Search art"
+                          placeholder="Explore art.."
                           type="search"
                         />
                       </div>
@@ -19758,16 +19880,18 @@ VueWrapper {
                       id="app"
                     >
                       <section>
-                        <div>
+                        <div
+                          class="header"
+                        >
                           <h1
-                            class="header"
+                            class="title"
                           >
-                            Curaptor
+                            CurAPPtor
                           </h1>
                            
                           <input
                             class="search"
-                            placeholder="Search art"
+                            placeholder="Explore art.."
                             type="search"
                           />
                         </div>
@@ -20090,16 +20214,18 @@ VueWrapper {
                 id="app"
               >
                 <section>
-                  <div>
+                  <div
+                    class="header"
+                  >
                     <h1
-                      class="header"
+                      class="title"
                     >
-                      Curaptor
+                      CurAPPtor
                     </h1>
                      
                     <input
                       class="search"
-                      placeholder="Search art"
+                      placeholder="Explore art.."
                       type="search"
                     />
                   </div>
@@ -20196,16 +20322,18 @@ VueWrapper {
                   id="app"
                 >
                   <section>
-                    <div>
+                    <div
+                      class="header"
+                    >
                       <h1
-                        class="header"
+                        class="title"
                       >
-                        Curaptor
+                        CurAPPtor
                       </h1>
                        
                       <input
                         class="search"
-                        placeholder="Search art"
+                        placeholder="Explore art.."
                         type="search"
                       />
                     </div>
@@ -20525,16 +20653,18 @@ VueWrapper {
             id="app"
           >
             <section>
-              <div>
+              <div
+                class="header"
+              >
                 <h1
-                  class="header"
+                  class="title"
                 >
-                  Curaptor
+                  CurAPPtor
                 </h1>
                  
                 <input
                   class="search"
-                  placeholder="Search art"
+                  placeholder="Explore art.."
                   type="search"
                 />
               </div>
@@ -20631,16 +20761,18 @@ VueWrapper {
               id="app"
             >
               <section>
-                <div>
+                <div
+                  class="header"
+                >
                   <h1
-                    class="header"
+                    class="title"
                   >
-                    Curaptor
+                    CurAPPtor
                   </h1>
                    
                   <input
                     class="search"
-                    placeholder="Search art"
+                    placeholder="Explore art.."
                     type="search"
                   />
                 </div>
@@ -20926,16 +21058,18 @@ VueWrapper {
         },
         "data": undefined,
         "elm": <section>
-          <div>
+          <div
+            class="header"
+          >
             <h1
-              class="header"
+              class="title"
             >
-              Curaptor
+              CurAPPtor
             </h1>
              
             <input
               class="search"
-              placeholder="Search art"
+              placeholder="Explore art.."
               type="search"
             />
           </div>
@@ -20976,16 +21110,18 @@ VueWrapper {
         id="app"
       >
         <section>
-          <div>
+          <div
+            class="header"
+          >
             <h1
-              class="header"
+              class="title"
             >
-              Curaptor
+              CurAPPtor
             </h1>
              
             <input
               class="search"
-              placeholder="Search art"
+              placeholder="Explore art.."
               type="search"
             />
           </div>
@@ -21082,16 +21218,18 @@ VueWrapper {
           id="app"
         >
           <section>
-            <div>
+            <div
+              class="header"
+            >
               <h1
-                class="header"
+                class="title"
               >
-                Curaptor
+                CurAPPtor
               </h1>
                
               <input
                 class="search"
-                placeholder="Search art"
+                placeholder="Explore art.."
                 type="search"
               />
             </div>
@@ -21384,16 +21522,18 @@ VueWrapper {
       id="app"
     >
       <section>
-        <div>
+        <div
+          class="header"
+        >
           <h1
-            class="header"
+            class="title"
           >
-            Curaptor
+            CurAPPtor
           </h1>
            
           <input
             class="search"
-            placeholder="Search art"
+            placeholder="Explore art.."
             type="search"
           />
         </div>
