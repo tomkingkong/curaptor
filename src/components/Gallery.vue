@@ -2,7 +2,7 @@
   <div class="backdrop">
     <div class="canvas">
       <ul class="cards">
-        <li v-for="card in cards" :key="card.id"  v-on:mousedown="seen = card.id" v-on:mouseup="seen = false">
+        <li v-for="card in cards" :key="card.id"  v-on:mouseover="seen = card.id" v-on:mouseleave="seen = false">
           <img :src="card.primaryimageurl" width="400" class="painting"/>
           <div class="info" v-show="seen === card.id">
             <p>{{ card.title }}</p>
