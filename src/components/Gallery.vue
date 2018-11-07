@@ -121,5 +121,8 @@ export default {
       min-width: 100%;
       margin: 0;
     }
+    .painting {
+      max-width: 20rem;
+    }
   }
 </style>
