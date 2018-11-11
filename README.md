@@ -4,7 +4,7 @@
 
 Create a single-page application in **[Vue.js](https://vuejs.org/)** that functions as an art gallery using the [Hardvard Museums API](https://www.harvardartmuseums.org/collections/api). Use the API to present items from the Harvard Museums collection.
 
-## [Demo](https://curaptor.herokuapp.com/) the final product.
+## [Demo](https://curaptor.herokuapp.com/) the final product
 
 ## Result
 
